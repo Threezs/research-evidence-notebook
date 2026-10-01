@@ -1,0 +1,5 @@
+mechanism_id,project_id,source_node,relationship,target_node,cell_or_compartment,species,model,evidence_claim_ids,status
+M001,IR_LIVER,SAA1/2,may recruit,neutrophil,hepatocyte-to-immune,human or mouse,IR or acute injury,C001,hypothesis
+M002,IR_LIVER,LCN2,may recruit,neutrophil,hepatocyte-to-immune,human or mouse,IR or acute injury,C001,hypothesis
+M003,IR_LIVER,CD177,may interact with or regulate adhesion involving,PECAM1,neutrophil-endothelium,mouse evidence required,IR injury,C002,hypothesis
+M004,IR_LIVER,S100A8/A9,may signal through,CD36,endothelium,mouse evidence required,IR injury,C003,hypothesis
