@@ -57,3 +57,11 @@ docs/
 - [rnaseq-analysis-template](https://github.com/Threezs/rnaseq-analysis-template)：bulk RNA-seq 统计分析。
 - [zotero-literature-tools](https://github.com/Threezs/zotero-literature-tools)：Zotero/BibTeX 整理。
 
+
+
+## 与方法目录对接
+
+- 方法选择：先查 [nature-methods-bioinformatics-catalog](https://github.com/Threezs/nature-methods-bioinformatics-catalog) 的 docs/function_map.md。
+- 输入和运行状态：复制 catalog 的 templates/method_run_manifest.yml，记录 baseline、checkpoint 和 execution_mode。
+- 细胞级输出：CellRank、embedding、niche 和细胞比例必须带 sample_id/donor_id，按样本汇总后再写入 claim。
+- 结果表达：使用 catalog 的 templates/result_interpretation.md，分别填写观察、最小结论、不能推出的内容、替代解释和验证。
