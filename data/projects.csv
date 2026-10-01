@@ -1,0 +1,4 @@
+project_id,project_name,model,organism,primary_question,status,linked_repo
+APAP24H,APAP 24h liver injury,acute drug-induced liver injury,Mus musculus,Which acute inflammatory and transcriptional programs change?,active,Threezs/rnaseq-analysis-template
+IR_LIVER,Ischemia reperfusion liver injury,IR injury,Mus musculus,How hepatocyte signals recruit neutrophils and alter LSEC function?,planning,
+CRLM,Colorectal cancer liver metastasis,liver metastasis,Homo sapiens / Mus musculus,Which tumor-cell states support invasion and colonization?,planning,
