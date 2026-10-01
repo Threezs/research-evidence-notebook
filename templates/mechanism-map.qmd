@@ -1,0 +1,17 @@
+---
+title: "{{PROJECT_ID}} mechanism map"
+format:
+  html:
+    toc: true
+    code-fold: true
+---
+
+~~~{r}
+mechanisms <- read.csv("../data/mechanisms.csv", check.names = FALSE)
+claims <- read.csv("../data/claims.csv", check.names = FALSE)
+subset(mechanisms, project_id == "{{PROJECT_ID}}")
+~~~
+
+## 解释规则
+
+图中的“may recruit”“associated with”“supports”不能自动改写为“causes”。只有存在干预、方向一致的读出和合理对照时，才考虑提高置信度。
